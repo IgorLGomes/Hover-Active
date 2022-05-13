@@ -1,0 +1,57 @@
+*{
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #a7d3e4;
+    font-family: 'Arial';
+}
+.texto{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.imagens{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img1{
+    margin-bottom: 450px;
+}
+
+#img1{
+    position: absolute;
+    background-image: url('../imgs/pou.png');
+    background-size: 410px 325px;
+    width: 410px;
+    height: 325px;
+    margin-top: 50px
+
+}
+#img1:active{
+    background-image: url('../imgs/pou_mortin.png');
+    background-size: 325px 372px;
+    width: 325px;
+    height: 372px;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+#img2{
+    background-image: url('../imgs/atumalaca-serious.png');
+    background-size: 325px 305px;
+    width: 325px;
+    height: 305px;
+    margin-right: 130px;
+}
+#img2:hover{
+    background-image: url('../imgs/atumalaca-risada.gif');
+    background-size: 325px 275px;
+    width: 325px;
+    height: 275px;
+    margin-right: 130px;
+}
